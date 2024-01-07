@@ -1,0 +1,78 @@
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+Input{
+    border-radius: 0;
+    bottom: 1px solid gray;
+    height: 40px;
+
+
+}
+.page-title{
+    font-size:25px ;
+    color: rgba(0, 0, 0, 0.671);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+  }
+Input:focus{
+    outline: none;
+    box-shadow: none;
+    border:1px solid gray ;
+}
+.register_form{
+    border: 1px solid gray;
+    padding: 30px;
+  
+    border-radius: 15px;
+}
+.authentication{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #005555;
+}
+
+.anchor{
+    color: black;
+    text-decoration: underline;
+    font-size: 16px;
+}
+.anchor:hover{
+    color: #005555;
+}
+.authentication-form{
+    width:400px ;
+}
+.ant-form-item{
+   margin: 10px 0;
+}
+label{
+    font-size: 16px;
+    color: black;
+}
+.primary-button{
+    background-color: #005555;
+    border-color: #005555;
+    height: 40px;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+}
+.authentication .card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    max-width: max-content;
+    padding: 7px 15px;
+    margin-left: -40px;
+    border-bottom-left-radius: 10px;
+}

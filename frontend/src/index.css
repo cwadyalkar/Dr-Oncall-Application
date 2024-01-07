@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.spinner {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.341);
+}
+.form-btn {
+  width: 250px;
+  margin-top: 30px;
+}
+.btn-color {
+  background-color: #005555;
+}
+Input {
+  border-radius: 2px;
+  border: 1px solid rgba(128, 128, 128, 0.521);
+  height: 40px;
+}
+.card-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.767);
+}
+.card-title2{
+  font-size: 22px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.767);
+}
+
+p {
+  color: rgba(0, 0, 0, 0.735);
+  margin-top: 0;
+  padding-top: 0;
+}
+.page-title {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.671);
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.card {
+  box-shadow: 0 0 2px gray;
+  border-radius: 0;
+}
+.page{
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.671);
+  font-weight: bold;
+}
+p{
+  color: rgba(0, 0, 0, 0.673);
+  margin: 0; 
+  padding: 0;
+}
+.normal-text{
+  font-size: 1rem;
+}
+.anchor{
+  color: black;
+  text-decoration: underline;
+  font-size: 16px;
+}
+.image-book{
+  display: flex;
+  justify-content: center;
+}
